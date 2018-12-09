@@ -1,0 +1,97 @@
+nav {
+    background:rgba(50, 50, 50, 0.8);
+    padding: 15px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 11;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+nav .menu {
+    float: right;
+    margin-right: 15px;
+}
+nav .menu li {
+    float: left;
+    margin-right: 20px;
+}
+nav .menu li a {
+    padding: 15px;
+}
+nav .menu li a:hover {
+    background: #eb9100;
+}
+.menu li.dropDown {
+    position: relative;
+}
+.menu li.dropDown ul.subMenu {
+    position: absolute;
+    background: rgba(20, 20, 20, 0.8);
+    display: none;
+    padding: 15px 0;
+    top: 31px;
+    width: 100%;
+}
+.menu li.dropDown ul.subMenu li {
+    width: 100%;
+    margin: 15px 0;
+}
+.menu li.dropDown:hover ul.subMenu{
+    display: block;
+}
+.AD1 {
+    background: url(images/AD-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 56px;
+}
+.AD-inside {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    background: #ffffff4b;
+    width: 100%;
+    text-align: center;
+    line-height: 2rem;
+    height: 40px;
+    overflow: hidden;
+    transition: height 0.5s ease-out;
+}
+.AD-inside:hover {
+    height: 100%;
+    transition: height 0.5s ease-in;
+}
+
+
+.dog-pic, .cat-pic {
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+    background: rgb(192, 47, 47);
+    overflow: hidden;
+}
+.cat-pic {
+    background: rgb(202, 219, 103);
+}
+.dog-pic .col, .cat-pic .col  {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #666;
+}
+.dog-img h2, .cat-img h2 {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.dog-img p, .cat-img p {
+    font-size: 12px;
+}
