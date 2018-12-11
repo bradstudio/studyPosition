@@ -95,3 +95,41 @@ nav .menu li a:hover {
 .dog-img p, .cat-img p {
     font-size: 12px;
 }
+
+/*合作夥伴*/
+.partner-wrapper {
+    margin: 30px;
+}
+.partner-wrapper .partner-title h1 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #ff6600;
+}
+.partner-wrapper .partner-title p {
+    line-height: 40px;
+}
+.partner-pic {
+    background: #dddddd;
+    display: flex;
+    /* flex-direction: row;*/ /*橫向排列*/
+    /*flex-wrap: wrap; */ /*是否換行*/
+    flex-flow: row wrap; /*綜合direction與wrap*/    
+    width: 800px;
+    height: 800px;
+    align-items: flex-start; /*裡面元素的垂直對齊baseline要再研究一下*/
+    /* justify-content: space-around; */ /*內容的橫向對齊方式*/
+    align-content:stretch; /*內容的垂直對齊方式*/
+}
+.partner-pic .partner-thumb {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* 關於我們 */
+.about-wrapper {
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    border: 1px solid #555555;
+}
